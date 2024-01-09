@@ -1,0 +1,15 @@
+.sin-completar:nth-child(odd){
+    @apply w-[80%] h-[50px] flex justify-between items-center pe-4 ps-4 bg-green-800 mt-2 rounded border-green-700 border-2 text-white
+}
+.sin-completar>h1,.completada>h1{
+    @apply w-[80%]
+}
+.sin-completar:nth-child(even){
+    @apply w-[80%] h-[50px] flex justify-between items-center pe-4 ps-4 bg-green-600 mt-2 rounded border-green-400 border-2 text-white
+}
+.completada:nth-child(odd){
+    @apply w-[80%] h-[50px] flex justify-between items-center pe-4 ps-4 bg-red-800 mt-2 rounded border-red-700 border-2 text-white line-through
+}
+.completada:nth-child(even){
+    @apply w-[80%] h-[50px] flex justify-between items-center pe-4 ps-4 bg-red-600 mt-2 rounded border-red-400 border-2 text-white line-through
+}
